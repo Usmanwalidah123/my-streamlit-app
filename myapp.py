@@ -5,11 +5,11 @@ import pandas as pd
 st.write("""
 # Simple Stock Price App
 
-Shown are the stock closing price and volume of Google!
+Shown are the stock closing price and volume of Apple!
 """)
 
 # Define the ticker symbol
-tickerSymbol = 'GOOGL'
+tickerSymbol = 'AAPL'
 # Get data on this ticker
 tickerData = yf.Ticker(tickerSymbol)
 # Get the historical prices for this ticker using start and end dates only
